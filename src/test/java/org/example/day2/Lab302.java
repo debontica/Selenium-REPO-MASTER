@@ -36,6 +36,8 @@ public class Lab302 {
             throw new RuntimeException(e);
         }
 
+        //Rohit
+
         WebElement error_msg = driver.findElement(By.className("notification-box-description"));
         String error_msg_text = error_msg.getText();
         String error_msg_attribute_dataqa = error_msg.getAttribute("data-qa");
